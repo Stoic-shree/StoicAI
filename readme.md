@@ -6,7 +6,7 @@ An intelligent PDF question-answering system that leverages Large Language Model
 
 - **Live Demo**: [Streamlit App](https://stoicy-ai.streamlit.app/)
 - **GitHub Repository**: [View Source Code](https://github.com/Stoic-shree/StoicAI)
-- **Video Demo**: [Watch Walkthrough](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/demovideo.mp4) 
+- **Video Demo**: [Watch Walkthrough](#demo) 
 
 ---
 
@@ -16,6 +16,7 @@ An intelligent PDF question-answering system that leverages Large Language Model
 - [Features](#features)
 - [Limitations](#limitations)
 - [Architecture](#architecture)
+- [Demo](#demo)
 - [Technology Stack](#technology-stack)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
@@ -79,6 +80,22 @@ The diagram above illustrates the end-to-end flow of the application:
 3.  **Storage**: These embeddings are stored in a local FAISS vector database for efficient retrieval.
 4.  **Querying**: When a user asks a question, it is converted into a vector and compared against the stored embeddings to find relevant context.
 5.  **Response**: The relevant context and the user's question are sent to the LLM (GPT-4o-mini), which generates an accurate, context-aware answer.
+
+---
+
+## Demo
+
+### Video Walkthrough
+
+Watch a complete demonstration of the application in action:
+
+**[Download and Watch Demo Video](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/demovideo.mp4)**
+
+The demo covers:
+- Setting up the application
+- Uploading PDF documents
+- Asking questions and receiving AI-generated answers
+- Understanding the RAG workflow
 
 ---
 
