@@ -2,15 +2,15 @@
 
 An intelligent PDF question-answering system that leverages Large Language Models (LLMs) to extract insights from your documents. Upload PDFs, ask questions in natural language, and get accurate answers based on document content.
 
-## 🔗 Quick Links
+## Quick Links
 
-- **🌐 Live Demo**: [Streamlit App](https://stoicy-ai.streamlit.app/)
-- **� GitHub Repository**: [View Source Code](https://github.com/Stoic-shree/StoicAI)
-- **🎥 Video Demo**: [Watch Walkthrough](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/demovideo.mp4) 
+- **Live Demo**: [Streamlit App](https://stoicy-ai.streamlit.app/)
+- **GitHub Repository**: [View Source Code](https://github.com/Stoic-shree/StoicAI)
+- **Video Demo**: [Watch Walkthrough](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/demovideo.mp4) 
 
 ---
 
-## � Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -27,7 +27,7 @@ An intelligent PDF question-answering system that leverages Large Language Model
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This application implements a Retrieval-Augmented Generation (RAG) system that enables users to interact with PDF documents through natural language queries. Instead of manually searching through lengthy documents, users can ask questions and receive contextually relevant answers powered by OpenAI's GPT models.
 
@@ -41,21 +41,21 @@ This approach ensures responses are grounded in your specific documents rather t
 
 ---
 
-## ✨ Features
+## Features
 
-- 📄 **Multi-PDF Support**: Upload and process multiple PDF files simultaneously
-- 💬 **Natural Language Queries**: Ask questions in plain English
-- 🔍 **Semantic Search**: Uses vector embeddings for intelligent document search
-- 🎯 **Context-Aware Answers**: Responses are based solely on uploaded documents
-- ⚡ **Fast Processing**: FAISS vector database enables rapid similarity search
-- 🔐 **Secure**: API keys managed through environment variables
-- 🎨 **User-Friendly Interface**: Clean Streamlit UI for easy interaction
-- 💾 **Persistent Storage**: Processed documents stored locally for quick re-querying
-- 🔄 **Real-Time Processing**: Immediate feedback during document processing
+- **Multi-PDF Support**: Upload and process multiple PDF files simultaneously
+- **Natural Language Queries**: Ask questions in plain English
+- **Semantic Search**: Uses vector embeddings for intelligent document search
+- **Context-Aware Answers**: Responses are based solely on uploaded documents
+- **Fast Processing**: FAISS vector database enables rapid similarity search
+- **Secure**: API keys managed through environment variables
+- **User-Friendly Interface**: Clean Streamlit UI for easy interaction
+- **Persistent Storage**: Processed documents stored locally for quick re-querying
+- **Real-Time Processing**: Immediate feedback during document processing
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - **Internet Dependency**: Requires active internet connection for OpenRouter API access
 - **PDF Format Constraints**: May not work optimally with scanned PDFs or image-based documents (no OCR support)
@@ -66,7 +66,7 @@ This approach ensures responses are grounded in your specific documents rather t
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ![Architecture Diagram](Assets/Architecture.jpeg)
 
@@ -82,7 +82,7 @@ The diagram above illustrates the end-to-end flow of the application:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technology | Version | Purpose |
 |----------|-----------|---------|---------|
@@ -97,7 +97,7 @@ The diagram above illustrates the end-to-end flow of the application:
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - **Python**: 3.8 or higher
 - **OpenRouter Account**: [Sign up here](https://openrouter.ai)
@@ -108,7 +108,7 @@ The diagram above illustrates the end-to-end flow of the application:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Step 1: Clone the Repository
 
@@ -154,7 +154,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 ---
 
-## 💻 Running Locally
+## Running Locally
 
 ### Start the Application
 
@@ -177,7 +177,7 @@ Press `Ctrl+C` in the terminal to stop the Streamlit server.
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Step-by-Step Instructions
 
@@ -204,7 +204,7 @@ Press `Ctrl+C` in the terminal to stop the Streamlit server.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chat-with-pdf/
@@ -226,7 +226,7 @@ chat-with-pdf/
 
 ---
 
-## 🚀 Potential Improvements
+## Potential Improvements
 
 ### File Format Support
 - **Word Documents**: Add support for `.docx` and `.doc` files
