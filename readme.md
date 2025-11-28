@@ -89,7 +89,7 @@ The diagram above illustrates the end-to-end flow of the application:
 
 Watch a complete demonstration of the application in action:
 
-**[Download and Watch Demo Video](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/demovideo.mp4)**
+**[Download and Watch Demo Video](https://github.com/Stoic-shree/StoicAI/raw/main/Assets/DemoVideo.mp4)**
 
 The demo covers:
 - Setting up the application
